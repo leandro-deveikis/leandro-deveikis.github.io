@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(35, 35, 35);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.photo-container {
+    margin-right: 20px;
+}
+
+.profile-photo {
+    max-width: 200px; 
+    max-height: 200px;
+}
+
+.github-logo {
+    max-width: 30px; 
+    max-height: 30px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
